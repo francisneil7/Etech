@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>DRRR</title>
+      <link rel="stylesheet" href="drrr.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Righteous" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="sec1" id="sec1">
+            <div class="center">
+                  <h2>Disaster Readiness and Risk Reduction</h2>
+                  <a href="#blog" ><button>Proceed</button></a>
+            </div>
+            <div class="header">
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                        <a href="index.html">
+                              <div class="logo">
+                                    STEM 1
+                              </div>
+                        </a>
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#sec1">Back to top</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+            </div>
+      </div>
+      <div class="container-fluid">
+      <section class="sec2" id="blog">
+            <br><br><br>
+            <div class="container1">
+                  <div class="content">
+                        <h2>BASIC LIFE SUPPORT</h2>
+                  </div><br><br>
+                  <div class="row">
+                      <img src="drrr1.jpg" class="image1">
+                      <img src="drrr2.jpg" class="image2">
+                      <p>As humans, we cannot escape from the reality that in this world, we are exposed to not-so-good events, accidents, and even emergencies. However, the longer we live in this world, the stronger we become. We learn how to fight for ourselves, we learn how to take care of ourselves, and we learn how to support one another in case of emergencies.<br><br>
+
+                        It has been a great journey for us students in the STEM 1 class, knowing the basic life support actions which was held last October 8, 2018. Experts from Red Cross Organization, Cagayan de Oro chapter spent some time teaching is how to somehow save a human life in the most basic way. We actually dod perform various activities; one of those is the Cardio-Pulmonary Resuscitation which is widely knowm as the CPR. Knowing what to do in times of emergencies is an important thing. It can either save a life or end someones' life. But with what we did the previous time, we were educated on how to behave amd act when thay situation arrives. Thanks to the experts.<br><br>
+
+                        Life was given to us a billiom year ago, but up until today we still have it. We don't want to end it nor lose it. That is why we need each other. We need to preserve and keep it for there are still things we need to know that only lies beyond our grasps and beyond our senses.</p>
+                  </div>
+            </div>
+
+            <div class="video">
+            <center>
+                   <iframe  src="https://www.youtube.com/embed/nqLIfMR-aTw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="embed-responsive-item" width="550" height="350"></iframe>
+            </center>
+      </div>      
+
+      </section>
+      </div>
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+      $(document).ready(function() {
+            $("nav ul a").on("click", function() {
+                  $("nav ul").removeClass("showing");
+            });
+      });
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      });
+
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<title>STEM 1</title>
+</head>
+<body>
+	<div>
+		<center><img src="6.png" height="100" width="100" class="logo" id="logo"></center>
+	</div>
+	<div>
+		<nav>
+			<ul>
+				<center>
+				<a href="index.html"><li>HOME</li></a>
+				<a href="contacts.html"><li>CONTACTS</li></a>
+				<a href=help.html><li>HELP</li></a>
+				<a href="about.html"><li>ABOUT</li></a>
+				</center>
+			</ul>
+		</nav>
+	</div>
+	<div>
+		<nav>
+			<center>
+			<a href="drrr.html"><button class="button1">DRRR</button></a>
+			<a href="biology.html"><button class="button2">General Biology 2</button></a>
+			<a href="physics.html"><button class="button3">General Physics</button></a>
+			<a href="cpar.html"><button class="button4">CPAR</button></a>
+			</center>
+		</nav>
+	</div>
+	<div class="container">
+  		<div class="row">
+    		<div class="col-sm-4">
+    			<button id="trivia" class="trivia" data-toggle="modal" data-target="#ErnieModal" datatoggle="tooltip" title="Click to view details"> Daily Trivia</button>
+    		</div>
+    	</div>
+    </div>
+    </center>
+    <!-- 
+    <div class="video">
+    	<center><video src="videos/123.mp4" width="650" height="650" autoplay></video></center>
+    		<div class="images">
+    			<img class="img" src="111.jpg" width="270" height="200"><br>
+    			<img class="img" src="111.jpg" width="270" height="200"><br>
+    			<img class="img" src="111.jpg" width="270" height="200"><br>
+    			<img class="img" src="111.jpg" width="270" height="200">
+    		</div>
+    </div> -->
+
+
+
+
+
+
+    <!-- Daily Trivia pop-up -->
+    <div class="modal fade" id="ErnieModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">DID YOU KNOW?</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        	<p>No species of millipede has more than 750 legs.</p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>

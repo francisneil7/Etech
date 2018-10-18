@@ -1,0 +1,227 @@
+@font-face {
+      src: url(Righteous-Regular.ttf);
+      font-family: Righteous;
+}
+
+@font-face {
+      src: url(SourceCodePro-Regular.ttf);
+      font-family: Source Code Pro;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100;
+	scroll-behavior: smooth;
+}
+body {
+	background: url(back.jpg) fixed;
+	background-size: cover;
+	font-weight: lighter;
+}
+.logo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content h1 {
+	text-shadow: 3px 3px 4px white, 0 0 35px grey, 0 0 25px black;
+	color: black;
+	font-size: 50px;
+	font-family: 'Righteous';
+}
+
+.paragraph {
+	background: url(sec1.jpg) fixed;
+	background-size: cover;
+	width: 1200px;
+	margin-left: 6%;
+}
+.paragraph p {
+	font-family: 'Source Code Pro', monospace;
+	color: white;
+	text-shadow: 3px 3px 4px black, 0 0 35px grey, 0 0 25px black;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 25px;
+	text-indent: 50px;
+	font-weight: 20px;
+}
+
+.modal-body p {
+	margin-left: 60px;
+	font-size: 15px;
+}
+
+.modal-title {
+	margin-left: 130px;
+}
+nav ul {
+	border: 2px solid;
+	color: black;
+}
+nav ul li {
+	text-shadow: 3px 3px 4px white, 0 0 35px grey, 0 0 25px black;
+	color: black;
+	font-size: 30px;
+	margin: 10px;
+	display: inline-block;
+	margin-right: 100px;
+	font-family: 'Righteous';
+}
+
+nav ul li:hover {
+	text-shadow: 3px 3px 4px black, 0 0 35px grey, 0 0 25px black;
+	color: white;
+	transition: 0.5s;
+}
+
+.button1 {
+	font-size: 15px;
+	border: 15px solid;
+	margin: 20px;
+	height: 280px;
+	width: 270px;
+	background-color: transparent;
+	color: black;
+}
+
+.button2 {
+	border: 15px solid;
+	margin: 20px;
+	height: 280px;
+	width: 270px;
+	background-color: transparent;
+	font-size: 20px;
+	color: black;
+}
+
+.button3 {
+	border: 15px solid;
+	margin: 20px;
+	height: 280px;
+	width: 270px;
+	background-color: transparent;
+	font-size: 20px;
+	color: black;
+}
+
+.button4 {
+	border: 15px solid;
+	margin: 20px;
+	height: 280px;
+	width: 270px;
+	background-color: transparent;
+	font-size: 20px;
+	color: black;
+}
+
+.button1:hover {
+	text-shadow: 3px 3px 4px white, 0 0 35px grey, 0 0 25px black;
+	transition: 2s;
+	background: url(storm.jpg) 70% 50%;
+	cursor: pointer;
+	border-color: black;
+	color: white;
+}
+
+.button2:hover {
+	text-shadow: 3px 3px 4px white, 0 0 35px grey, 0 0 25px black;
+	transition: 2s;
+	background: url(biology.jpg) 100% 100%;
+	cursor: pointer;
+	border-color: black;
+	color: black;
+}
+
+.button3:hover {
+	text-shadow: 3px 3px 4px grey, 0 0 35px grey, 0 0 25px black;
+	transition: 2s;
+	border-color: black;
+	background: url(p6.jpg) 70% 50%;
+	cursor: pointer;
+	color: white;
+}
+
+.button4:hover {
+	text-shadow: 3px 3px 4px grey, 0 0 35px grey, 0 0 25px black;
+	transition: 2s;
+	border-color: black;
+	background: url(cpar.jpg) 70% 50%;
+	cursor: pointer;
+	color: white;
+}
+
+.trivia {
+	margin-left: 120%;
+	background-color: transparent;
+	border: 2px solid;
+	color: black;
+	border-width: 2px;
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.trivia:hover {
+	color: white;
+	transition: 0.5s;
+	background-color: black;
+}
+
+.images {
+	margin-top: -44%;
+	position: relative;
+	float: right;	
+}
+
+.img {
+	margin-bottom: 10px;
+	margin-right: 25px;
+}
+
+.details p {
+	color: black;
+	font-size: 25px;
+	text-shadow: 3px 3px 4px grey, 0 0 35px grey, 0 0 25px black;
+}
+.jovy {
+	width: 400px;
+	height: 350px;
+	margin-top: 10%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.jhaella {
+	width: 400px;
+	height: 350px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.rhizza {
+	width: 400px;
+	height: 350px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.dominador {
+	width: 400px;
+	height: 350px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.suzette {
+	width: 400px;
+	height: 350px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
